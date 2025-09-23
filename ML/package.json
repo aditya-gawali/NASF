@@ -1,0 +1,32 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/core": "^0.1.0",
+    "@langchain/langgraph": "^0.0.1",
+    "@langchain/openai": "^0.0.1",
+    "@langchain/google-genai": "^0.0.15",
+    "@types/node": "^20.0.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cron": "^3.1.6",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.1.0",
+    "mongoose": "^8.0.0",
+    "redis": "^4.6.0",
+    "rss-parser": "^3.13.0",
+    "typescript": "^5.0.0"
+  }
+}
